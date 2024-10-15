@@ -1,0 +1,65 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.container {
+  align-items: center;
+  justify-content: center;
+  margin-top: 10rem;
+}
+.pick {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 6rem;
+}
+#picker {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#reset {
+  margin-top: 4rem;
+  padding: 12px 20px;
+  font-size: 20px;
+  border-radius: 20px;
+  border: 0.5px solid black;
+}
+#reset:hover{
+    background-color: yellowgreen;
+    color: white;
+}
+.btn{
+    display: flex;
+    justify-content: center;
+}
+.colors {
+  border: 2px solid black;
+  padding: 30px 40px;
+  margin: 3px;
+}
+/* colors starts here */
+#lightsalmon {
+  background-color: lightsalmon;
+}
+#olivedrab {
+  background-color: olivedrab;
+}
+#goldenrod {
+  background-color: goldenrod;
+}
+#royalblue {
+  background-color: royalblue;
+}
+#paleturquoise {
+  background-color: paleturquoise;
+}
+#pink {
+  background-color: pink;
+}
+#cyan {
+  background-color: cyan;
+}
+#gray {
+  background-color: gray;
+}
